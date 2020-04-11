@@ -1,0 +1,57 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FORM ELEMENTS</title>
+  </head>
+  <body bgcolor="white" text="orange">
+    <form class="form" action="login.html" method="post">
+      <h1 align="center">PES COLLEGE OF ENGINEERING </h1>
+      <h2 align="center">APPLICATION FORM </h2>
+      <table cellspacing="10" cellpadding="10">
+        <tr>
+         <td>STUDENT NAME</td>
+         <td><input type="text" name="stdname" size="25" maxlength="35"></td>
+        </tr>
+        <tr>
+          <td> GENDER</td>
+          <td><input type="radio" name="gen" value="MALE">MALE</td>
+          <td><input type="radio" name="fgen" value="FEMALE">FEMALE</td>
+        </tr>
+        <tr>
+         <td>Board passed</td>
+         <td> <select class="select" name="list" size="4">
+           <option value="1 selected">SSLC STATE</option>
+           <option value="2">CBSE</option>
+           <option value="3">ICSE</option>
+         </select></td>
+        </tr>
+        <tr>
+          <td>STUDENT ADDRESS</td>
+          <td><textarea name="TXTAREA" rows="5" cols="25"></textarea></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="subject" value="maths">Mathematics</td>
+          <td><input type="checkbox" name="subject" value="ADA">ADA</td>
+          <td><input type="checkbox" name="subject" value="TOC">TOC</td>
+        </tr>
+        <tr>
+          <td> CATEGORY</td>
+          <td><select class="CAT" name="dropdown" size="3">
+            <option value="1selected">GM</option>
+            <option value="2">OBC</option>
+            <option value="3">Sc</option>
+            <option value="4">ST</option>
+          </select></td>
+        </tr>
+        <tr>
+          <td><input type="submit" name="submit" value="submit"></td>
+          <td><input type="reset" name="reset" value="reset"></td>
+        </tr>
+
+      </table>
+
+    </form>
+
+  </body>
+</html>
